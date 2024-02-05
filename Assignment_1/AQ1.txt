@@ -1,0 +1,43 @@
+Bubble Sort Process for the Array [4, 9, 2, 7, 1]:
+
+Pass 1:
+
+Commence with the array [4, 9, 2, 7, 1]. Now, let's compare adjacent elements:
+
+    Compare 4 and 9: Since 4 < 9, no swap needed.
+    Compare 9 and 2: Swap them as 9 > 2: [4, 2, 9, 7, 1].
+    Compare 9 and 7: Swap them as 9 > 7: [4, 2, 7, 9, 1].
+    Compare 9 and 1: Swap them as 9 > 1: [4, 2, 7, 1, 9].
+
+After Pass 1: [4, 2, 7, 1, 9]
+Pass 2:
+
+Continue the process for the remaining unsorted elements:
+
+    Compare 4 and 2: Swap them as 4 > 2: [2, 4, 7, 1, 9].
+    Compare 4 and 7: Swap them as 4 < 7: [2, 4, 7, 1, 9].
+    Compare 7 and 1: Swap them as 7 > 1: [2, 4, 1, 7, 9].
+
+After Pass 2: [2, 4, 1, 7, 9]
+Pass 3:
+
+Repeat the process:
+
+    Compare 2 and 4: No swap needed.
+    Compare 4 and 1: Swap them as 4 > 1: [2, 1, 4, 7, 9].
+
+After Pass 3: [2, 1, 4, 7, 9]
+Pass 4:
+
+Repeat the process:
+
+    Compare 2 and 1: Swap them as 2 > 1: [1, 2, 4, 7, 9].
+
+After Pass 4: [1, 2, 4, 7, 9]
+Pass 5:
+
+No swaps needed as the array is already sorted.
+
+After Pass 5: [1, 2, 4, 7, 9]
+
+The sorted array is [1, 2, 4, 7, 9].
